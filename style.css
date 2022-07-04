@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 
@@ -49,3 +49,36 @@ p{
     background-position: right;
 }
 
+
+.Experiences-area{
+    background-image: url(imges/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.color-h3{
+    color: orange;
+}
+.hardwork-part {
+    box-shadow: 5px 5px 45px gray;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    border-radius: 10px;
+    padding-bottom: 70px;
+}
+
+#border-shadow1 {
+    border-left: 7px solid tomato;
+}
+
+
+#border-shadow2 {
+    border-left: 7px solid rgb(20, 20, 240);
+}
