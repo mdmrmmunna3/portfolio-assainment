@@ -3,8 +3,12 @@ body {
     margin: 0;
 }
 
-.top-banner {
+section {
     display: flex;
+    margin-bottom: 100px;
+
+}
+.top-banner {
     background-image: url(imges/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -22,11 +26,12 @@ p{
 }
 .half-width {
     width: 50%;
-    padding-left: 7%;
+    padding-left: 3%;
+    margin-right: 7%;
 }
 
 .half-width img {
-    width: 90%;
+    width: 100%;
 }
 
 .link-btn {
@@ -37,3 +42,10 @@ p{
     font-weight: 700;
     border-radius: 5px;
 }
+
+.Dream-big{
+    background-image: url(imges/dream-bg.png );
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
